@@ -16,13 +16,56 @@
             <p class="lead">Fill required filds to add product! </p>
         </div>
 
-        <form:form action="#" method="post" commandName="product">
+        <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post" commandName="product">
         <div class="form-group">
             <label for="name">Name</label>
             <form:input path="productName" id="name" class="form-Control"/>
 
 
         </div>
+        <div class="form-group">
+            <label for="category">Category</label>
+            <form:select path="productCategory" name="Choose categoy" id="category">
+                <form:option value="Records">Records</form:option>
+                <form:option value="Instruments">Instruments</form:option>
+                <form:option value="Vinyl">Vinyl</form:option>
+            </form:select>
+            <label for="status">Status</label>
+            <form:select path="productStatus" name="Choose status" id="status">
+                <form:option value="Active">Active</form:option>
+                <form:option value="Inactive">Inactive</form:option>
+
+            </form:select>
+
+            <label for="condition">Condition</label>
+            <form:select path="productCondition" name="Choose condition" id="condition">
+                <form:option value="New">New</form:option>
+                <form:option value="Used">Used</form:option>
+
+            </form:select>
+        </div>
+        <div class="form-group">
+            <label for ="description">Description</label>
+            <form:textarea path="productDescription" id="description" class="form-Control"/>
+        </div>
+        <div class="form-group">
+            <label for ="price">Price</label>
+            <form:input path="productPrice" id="price" class="form-Control"/>
+        </div>
+
+        <div class="form-group">
+            <label for ="unitStock">Unit in stocks</label>
+            <form:input path="unitInStock" id="unitStock" class="form-Control"/>
+        </div>
+
+        <div class="form-group">
+            <label for ="manufacturer">Manufacturer</label>
+            <form:input path="productManufacturer" id="manufacturer" class="form-Control"/>
+        </div>
+        <br>
+        <br>
+        <input type="submit" value="submit" class="btn btn-default">
+        <a href="<c:url value="/admin/productInventory" />" class="btn btn-default">Cancel</a>
         </form:form>
 
 <%@include file="template/footer.jsp" %>

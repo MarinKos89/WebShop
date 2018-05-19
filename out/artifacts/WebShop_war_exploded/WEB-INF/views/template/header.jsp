@@ -41,7 +41,7 @@
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="#">About</a>
+                    <a class="nav-link " href="<c:url value="/admin" />">Admin</a>
                 </li>
 
                 <li><a class="nav-link" href="<c:url value="/productList" />">Products</a> </li>
