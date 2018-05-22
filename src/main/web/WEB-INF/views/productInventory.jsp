@@ -45,6 +45,12 @@
                         <a href="<spring:url value="/productList/viewProduct/${product.productID}"/>">
                             <i class="fas fa-info fa-fw"></i>
                         </a>
+                        <a href="<spring:url value="/admin/productInventory/deleteProduct/${product.productID}"/>">
+                            <i class="fas fa-trash-alt"></i>
+                        </a>
+                        <a href="<spring:url value="/admin/productInventory/editProduct/${product.productID}"/>">
+                            <i class="fas fa-pencil-alt"></i>
+                        </a>
                     </td>
 
 

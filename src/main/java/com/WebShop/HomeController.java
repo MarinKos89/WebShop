@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import sun.misc.Request;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.List;
 
@@ -75,8 +76,38 @@ public class HomeController {
 
 
     @RequestMapping(value = "/admin/productInventory/addProduct", method = RequestMethod.POST)
-    public String addProductPost(@ModelAttribute("product") Product product){
+    public String addProductPost(@ModelAttribute("product") Product product, HttpServletRequest request){
         productDao.addProduct(product);
+
+        return "redirect:/admin/productInventory";
+    }
+
+
+    @RequestMapping("/admin/productInventory/editProduct/{id}")
+    public String editProduct(@PathVariable("id") String id, Model model){
+        Product product=productDao.getProductByID(id);
+
+        model.addAttribute(product);
+
+        return "editProduct";
+
+    }
+
+    @RequestMapping(value = "/admin/productInventory/editProduct",method = RequestMethod.POST)
+    public String editProduct(@ModelAttribute("product") Product product, Model model, HttpServletRequest request)
+    {
+        productDao.editProduct(product);
+
+        return "redirect: /admin/productInventory";
+    }
+
+
+    @RequestMapping(value = "/admin/productInventory/deleteProduct/{id}")
+    public String deleteProduct(@PathVariable String id,Model model)
+    {
+
+        productDao.deleteProduct(id);
+
 
         return "redirect:/admin/productInventory";
     }
