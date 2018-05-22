@@ -4,6 +4,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 public class Product {
@@ -11,13 +13,18 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private String productID;
+
+    @NotEmpty(message = "Name cannot be null")
     private String productName;
     private String productCategory;
     private String productDescription;
+    @Min(value = 0,message = "Price cannot no be less then zero")
     private double productPrice;
 
     private String productCondition;
     private String productStatus;
+
+    @Min(value = 0,message = "Units cannot be less then zero")
     private int unitInStock;
     private String productManufacturer;
 
