@@ -16,7 +16,7 @@
             <p class="lead">Fill required filds to add product! </p>
         </div>
 
-        <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post" commandName="product">
+        <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post" commandName="product" enctype="multipart/form-data">
         <div class="form-group">
             <label for="name">Name</label>
             <form:input path="productName" id="name" class="form-Control"/>
@@ -62,6 +62,12 @@
             <label for ="manufacturer">Manufacturer</label>
             <form:input path="productManufacturer" id="manufacturer" class="form-Control"/>
         </div>
+
+        <div class="form-group">
+            <label class="custom-control-label" for="productImage">Upload Picture</label>
+            <form:input path="productImage" id="productImage" type="file" class="form:input-large"/>
+        </div>
+
         <br>
         <br>
         <input type="submit" value="submit" class="btn btn-default">

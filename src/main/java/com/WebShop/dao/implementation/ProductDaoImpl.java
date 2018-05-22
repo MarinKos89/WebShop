@@ -20,33 +20,34 @@ public class ProductDaoImpl implements ProductDao {
     private SessionFactory sessionFactory;
 
     public void addProduct(Product product) {
-        Session session=sessionFactory.getCurrentSession();
+        Session session = sessionFactory.getCurrentSession();
         session.saveOrUpdate(product);
         session.flush();
     }
 
     public Product getProductByID(String id) {
 
-        Session session=sessionFactory.getCurrentSession();
-        Product product=(Product)session.get(Product.class, id);
+        Session session = sessionFactory.getCurrentSession();
+        Product product = (Product) session.get(Product.class, id);
+        session.flush();
 
         return  product;
     }
 
     public List<Product> getAllProduct() {
-        Session session=sessionFactory.getCurrentSession();
-        Query query=session.createQuery("from Product");
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery("from Product");
 
-        List<Product>products=query.list();
+        List<Product> products = query.list();
 
         session.flush();
 
         return products;
     }
 
-    public void deleteProduct(String id) {
+    public void deleteProduct (String id) {
 
-        Session session=sessionFactory.getCurrentSession();
+        Session session = sessionFactory.getCurrentSession();
         session.delete(getProductByID(id));
         session.flush();
 
