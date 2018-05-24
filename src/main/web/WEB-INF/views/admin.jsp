@@ -18,12 +18,17 @@
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>All products</h1>
+            <h1>Administrator page</h1>
 
-            <p class="lead">Administrator page! </p>
+            <p class="lead">This is a administrator page! </p>
         </div>
+        <c:if test="${pageContext.request.userPrincipal.name != null}">
+        <h2>
+            Welcome: ${pageContext.request.userPrincipal.name} | <a href="<c:url value="/logout"/> ">Logout</a>
+        </h2>
+        </c:if>
         <h3>
-            <a href="<c:url value="admin/productInventory"/> ">Product inventory</a>
+            <a href="<c:url value="/admin/productInventory"/> ">Product inventory</a>
         </h3>
         <p>Here you can edit and modify product inventory</p>
 
