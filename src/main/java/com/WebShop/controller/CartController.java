@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
-@RequestMapping("rest/cart")
+@RequestMapping("/rest/cart")
 public class CartController {
 
 
@@ -25,22 +25,22 @@ public class CartController {
 
 
 
-    @RequestMapping(value = "/{cartId",method = RequestMethod.GET)
+    @RequestMapping(value = "/{cartId}",method = RequestMethod.GET)
     public @ResponseBody
     Cart read (@PathVariable(value = "cartId") String cartId){
         return cartDao.read(cartId);
     }
 
-    @RequestMapping(value = "/{cartId",method = RequestMethod.PUT)
+    @RequestMapping(value = "/{cartId}",method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public void update(@PathVariable(value = "cardId") String cartId, @RequestBody Cart cart){
+    public void update(@PathVariable(value = "cartId") String cartId, @RequestBody Cart cart){
 
         cartDao.update(cartId,cart);
     }
 
-    @RequestMapping(value = "/{cartId",method = RequestMethod.DELETE)
+    @RequestMapping(value = "/{cartId}",method = RequestMethod.DELETE)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public void delete(@PathVariable(value = "cardId") String cartId, @RequestBody Cart cart){
+    public void delete(@PathVariable(value = "cartId") String cartId, @RequestBody Cart cart){
 
         cartDao.delete(cartId);
     }
@@ -63,7 +63,7 @@ public class CartController {
             throw  new IllegalArgumentException(new Exception());
         }
 
-        cart.AddCartItem(new CartItem(product));
+        cart.addCartItem(new CartItem(product));
 
         cartDao.update(sessionId,cart);
     }
@@ -71,7 +71,7 @@ public class CartController {
     @RequestMapping(value = "/remove/{productId}",method = RequestMethod.PUT)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void removeItem(@PathVariable String productId,HttpServletRequest request){
-        String sessionId=request.getSession().getId();
+        String sessionId=request.getSession(true).getId();
         Cart cart=cartDao.read(sessionId);
 
 
@@ -83,7 +83,7 @@ public class CartController {
             throw new IllegalArgumentException(new Exception());
         }
 
-        cart.RemoveCartItem(new CartItem(product));
+        cart.removeCartItem(new CartItem(product));
         cartDao.update(sessionId,cart);
     }
 

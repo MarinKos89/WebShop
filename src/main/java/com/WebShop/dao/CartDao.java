@@ -4,8 +4,8 @@ import com.WebShop.model.Cart;
 
 public interface CartDao {
 
-    Cart create(Cart item);
-    Cart read(String cartID);
-    void delete(String cartID);
-    void update(String cartID,Cart cart);
+    Cart create(Cart cart);
+    Cart read(String cartId);
+    void delete(String cartId);
+    void update(String cartId,Cart cart);
 }

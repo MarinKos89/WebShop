@@ -1,19 +1,48 @@
 package com.WebShop.model;
 
-public class CartItem {
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import javax.persistence.*;
+import java.io.Serializable;
+
+@Entity
+public class CartItem implements Serializable {
+
+
+    private static final long serialVersionUID = -2761268888541667824L;
+
+    @Id
+    @GeneratedValue
+    private int cartItemID;
+
+    @ManyToOne
+    @JoinColumn(name="cartID")
+    @JsonIgnore
+    private Cart cart;
+
+    @ManyToOne
+    @JoinColumn(name = "productID")
     private Product product;
+
+
     private int quantity;
     private double totalPrice;
 
-    public CartItem() {
+
+    public int getCartItemID() {
+        return cartItemID;
     }
 
+    public void setCartItemID(int cartItemID) {
+        this.cartItemID = cartItemID;
+    }
 
-    public CartItem(Product product) {
-        this.product = product;
-        this.quantity = 1;
-        this.totalPrice = product.getProductPrice();
+    public Cart getCart() {
+        return cart;
+    }
+
+    public void setCart(Cart cart) {
+        this.cart = cart;
     }
 
     public Product getProduct() {

@@ -34,6 +34,7 @@
     </bean>
 
 
+
     <security:http auto-config="true">
         <security:intercept-url pattern="/admin/**" access="hasRole('ROLE_USER')"/>
         <security:form-login login-page="/login"

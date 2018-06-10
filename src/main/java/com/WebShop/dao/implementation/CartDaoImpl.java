@@ -17,8 +17,8 @@ public class CartDaoImpl implements CartDao {
         cartMapList=new HashMap<String, Cart>();
     }
 
-    public Cart create(Cart item) {
-       if (cartMapList.keySet().contains(item.getCartID()))
+    public Cart create(Cart cart) {
+       if (cartMapList.keySet().contains(cart.getCartID()))
        {
            try {
                throw new IllegalAccessException("Cart with that ID already exists");
@@ -26,8 +26,8 @@ public class CartDaoImpl implements CartDao {
                e.printStackTrace();
            }
        }
-       cartMapList.put(item.getCartID(),item);
-       return item;
+       cartMapList.put(cart.getCartID(),cart);
+       return cart;
 
     }
 
