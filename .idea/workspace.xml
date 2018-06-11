@@ -8,17 +8,46 @@
   <component name="ChangeListManager">
     <list default="true" id="0eb763fb-1ba9-4e67-8d4e-8ce506bff145" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartItemControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartItemControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/CartDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/CartDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CartDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CartDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartItemControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CartDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/ProductDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Authorities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/CartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/CartItemControler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CartDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/ProductDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/ProductDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/editProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/editProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/AdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/CartController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/CartItemControler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CartDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/ProductDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/ProductDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/Product.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,102 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="viewProduct.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp">
+      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="37" column="96" lean-forward="true" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/resources/js/controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Cart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Users.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Users.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#949#950#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Authority.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Authority.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state relative-caret-position="438">
+              <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,8 +72,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartItemControler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartItemControler.java">
+      <file leaf-file-name="cart.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/cart.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="25" column="37" lean-forward="true" selection-end-line="56" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerCustomerSuccess.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -146,38 +102,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CartDaoImpl.java">
+      <file leaf-file-name="CustomerServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/service/impl/CustomerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="221">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#813#814#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#498#499#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="productList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp">
+      <file leaf-file-name="CustomerDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CustomerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="-51">
+              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#907#908#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/CustomerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerCustomer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addProduct.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-481">
+              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -188,12 +177,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
-        <option value="Jsp File" />
         <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>billing</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>shipping</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
@@ -207,38 +204,54 @@
       <list>
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/ProductDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/editProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/resources/css/corousel.css" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartControler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/CartItem.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartItemControler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartController.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/cart.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/resources/js/controller.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/CartDao.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CartDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/CartItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/CustomerOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/BillingAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/ShippingAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/ProductDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/service/impl/ProductServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminHome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/Authority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/editProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/service/CustomerInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/service/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/RegisterController.java" />
       </list>
     </option>
   </component>
@@ -280,7 +293,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,6 +343,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,6 +373,25 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="WebShop" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
@@ -415,21 +457,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="diff&#9;ACTION&#9;Diff.KeymapGroup&#10;DIFF&#9;ACTION&#9;Diff.KeymapGroup" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/eMusicStore (4)/eMusicStore/src/main/java/com/emusicstore/model/Cart.java" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/eMusicStore/src/main/java/com/emusicstore/controller/ProductController.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/eMusicStore (4)/eMusicStore/src/main/java/com/emusicstore/model/Cart.java" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/eMusicStore/src/main/java/com/emusicstore/controller/ProductController.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -583,11 +625,13 @@
       <workItem from="1527316282999" duration="6000" />
       <workItem from="1527327400987" duration="3060000" />
       <workItem from="1527627962048" duration="21631000" />
+      <workItem from="1528657262349" duration="7670000" />
+      <workItem from="1528733842112" duration="11513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65808000" />
+    <option name="totallyTimeSpent" value="84991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -612,7 +656,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30411828" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30411828" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946146" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19010417" />
@@ -622,10 +666,10 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -645,134 +689,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="40" selection-end-line="47" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-orm-4.3.16.RELEASE.jar!/org/springframework/orm/jpa/support/PersistenceAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.4.RELEASE/spring-beans-4.1.4.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1061" selection-start-line="1061" selection-end-line="1061" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.16.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="1098" selection-start-line="1098" selection-end-line="1098" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/home.jsp" />
-    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.16.RELEASE.jar!/org/springframework/beans/factory/annotation/InjectionMetadata.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-beans-4.3.16.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="530" selection-start-line="530" selection-end-line="530" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/eMusicStore (1)/eMusicStore/src/main/webapp/WEB-INF/views/addProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="72" column="94" lean-forward="true" selection-start-line="71" selection-start-column="7" selection-end-line="72" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-471">
-          <caret line="41" column="38" lean-forward="true" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/resources/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/eMusicStore/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2075">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/eMusicStore/src/main/webapp/WEB-INF/views/template/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/eMusicStore/src/main/webapp/WEB-INF/views/template/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/eMusicStore/src/main/webapp/WEB-INF/views/template/header.jsp" />
+    <entry file="file://$USER_HOME$/Desktop/eMusicStore/src/main/webapp/WEB-INF/views/template/footer.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/web/resources/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -780,29 +698,10 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/resources/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/resources/js/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="96" lean-forward="true" selection-start-line="23" selection-start-column="96" selection-end-line="23" selection-end-column="96" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/resources/css/corousel.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -815,20 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/CartItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-583">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -846,62 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/editProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="70" selection-start-line="70" selection-end-line="70" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1207">
-          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/ProductDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="41" column="24" lean-forward="true" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/CartDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -909,38 +738,318 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartItemControler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/web/resources/js/controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="37" column="96" lean-forward="true" selection-start-line="37" selection-start-column="96" selection-end-line="37" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartItemControler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#1002#1003#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1621#1622#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1840#1841#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1919#1920#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2113#2114#0" expanded="true" />
+            <element signature="e#2146#2147#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2220#2221#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
+            <element signature="e#2342#2343#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#2462#2463#0" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+            <element signature="e#2551#2552#0" expanded="true" />
+            <element signature="e#2622#2623#0" expanded="true" />
+            <element signature="e#2676#2677#0" expanded="true" />
+            <element signature="e#2705#2706#0" expanded="true" />
+            <element signature="e#2732#2733#0" expanded="true" />
+            <element signature="e#2770#2771#0" expanded="true" />
+            <element signature="e#2802#2803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/CustomerOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/ShippingAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CartDaoImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/BillingAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/ProductDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Authorities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="83" column="50" lean-forward="true" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="45" column="16" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="39" column="57" lean-forward="true" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/editProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <caret line="18" column="120" selection-start-line="18" selection-start-column="120" selection-end-line="18" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="96" lean-forward="true" selection-start-line="23" selection-start-column="96" selection-end-line="23" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="101" column="40" lean-forward="true" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
@@ -950,99 +1059,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/resources/js/controller.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/service/impl/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CartDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state relative-caret-position="221">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Cart.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CustomerDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="24" />
+        <state relative-caret-position="-51">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Users.java">
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/cart.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#833#834#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="25" column="37" lean-forward="true" selection-end-line="56" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Authority.java">
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/RegisterController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="438">
+          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
           <folding>
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

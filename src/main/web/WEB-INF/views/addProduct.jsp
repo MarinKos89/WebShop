@@ -16,7 +16,7 @@
             <p class="lead">Fill required filds to add product! </p>
         </div>
 
-        <form:form action="${pageContext.request.contextPath}/admin/productInventory/addProduct" method="post" commandName="product">
+        <form:form action="${pageContext.request.contextPath}/admin/product/addProduct" method="post" commandName="product">
         <div class="form-group">
             <label for="name">Name</label> <form:errors path="productName" cssStyle="color:#c82333"/>
             <form:input path="productName" id="name" class="form-Control"/>

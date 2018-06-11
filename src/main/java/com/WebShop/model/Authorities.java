@@ -6,13 +6,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Authority {
+public class Authorities {
 
     @Id
     @GeneratedValue
     private int authorityID;
+
     private String username;
-    private String password;
+
 
     private String authority;
 
@@ -32,13 +33,6 @@ public class Authority {
         this.username = username;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
     public String getAuthority() {
         return authority;

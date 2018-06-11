@@ -35,7 +35,7 @@
                     <td>${product.productCondition}</td>
                     <td>${product.productPrice} USD</td>
                     <td>
-                        <a href="<spring:url value="/productList/viewProduct/${product.productID}"/>">
+                        <a href="<spring:url value="/product/viewProduct/${product.productID}"/>">
                         <i class="fas fa-info fa-fw"></i>
                     </a>
                     </td>

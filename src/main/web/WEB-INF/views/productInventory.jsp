@@ -42,13 +42,13 @@
                     <td>${product.productCondition}</td>
                     <td>${product.productPrice} USD</td>
                     <td>
-                        <a href="<spring:url value="/productList/viewProduct/${product.productID}"/>">
+                        <a href="<spring:url value="/product/viewProduct/${product.productID}"/>">
                             <i class="fas fa-info fa-fw"></i>
                         </a>
-                        <a href="<spring:url value="/admin/productInventory/deleteProduct/${product.productID}"/>">
+                        <a href="<spring:url value="/admin/product/deleteProduct/${product.productID}"/>">
                             <i class="fas fa-trash-alt"></i>
                         </a>
-                        <a href="<spring:url value="/admin/productInventory/editProduct/${product.productID}"/>">
+                        <a href="<spring:url value="/admin/product/editProduct/${product.productID}"/>">
                             <i class="fas fa-pencil-alt"></i>
                         </a>
                     </td>
@@ -58,6 +58,6 @@
             </c:forEach>
         </table>
 
-        <a href="<spring:url value="/admin/productInventory/addProduct" />" class="btn btn-primary">Add product</a>
+        <a href="<spring:url value="/admin/product/addProduct" />" class="btn btn-primary">Add product</a>
 
 <%@include file="template/footer.jsp" %>

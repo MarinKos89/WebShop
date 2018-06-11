@@ -16,7 +16,7 @@
             <p class="lead">Fill required filds to edit product! </p>
         </div>
 
-        <form:form action="${pageContext.request.contextPath}/admin/productInventory/editProduct" method="post" commandName="product">
+        <form:form action="${pageContext.request.contextPath}/admin/product/editProduct" method="post" commandName="product">
         <div class="form-group">
             <label for="name">Name</label>
             <form:input path="productName" id="name" class="form-Control" value="${product.productName}"/>
