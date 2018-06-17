@@ -2,10 +2,14 @@ package com.WebShop.dao;
 
 import com.WebShop.model.Cart;
 
+import java.io.IOException;
+
+
 public interface CartDao {
 
-    Cart create(Cart cart);
-    Cart read(String cartId);
-    void delete(String cartId);
-    void update(String cartId,Cart cart);
+    Cart getCartByID(int Cartid);
+
+    void update(Cart cart);
+
+    Cart validate(int cartId) throws IOException;
 }
