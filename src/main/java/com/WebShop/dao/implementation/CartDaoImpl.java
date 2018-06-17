@@ -3,6 +3,7 @@ package com.WebShop.dao.implementation;
 import com.WebShop.dao.CartDao;
 import com.WebShop.model.Cart;
 import com.WebShop.service.CartService;
+import com.WebShop.service.CustomerOrderService;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class CartDaoImpl implements CartDao {
     @Autowired
     private SessionFactory sessionFactory;
 
+    @Autowired
+    private CustomerOrderService customerOrderService;
+
     public Cart getCartByID(int cartID) {
        Session session =sessionFactory.getCurrentSession();
        Cart cart=(Cart)session.get(Cart.class,cartID);
@@ -27,7 +31,12 @@ public class CartDaoImpl implements CartDao {
     }
 
     public void update(Cart cart) {
-        //TODO
+        int cartId=cart.getCartID();
+        double grandTotal=customerOrderService.getCustomerOrderPrice(cartId);
+        cart.setGrandTotal(grandTotal);
+
+        Session session=sessionFactory.getCurrentSession();
+        session.saveOrUpdate(cart);
     }
 
     public Cart validate(int cartId) throws IOException {

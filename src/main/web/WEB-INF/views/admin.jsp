@@ -32,4 +32,13 @@
         </h3>
         <p>Here you can edit and modify product inventory</p>
 
+        <br>
+        <br>
+
+
+        <h3>
+            <a href="<c:url value="/admin/customer"/> ">Customer Management</a>
+        </h3>
+        <p>Here you can view customer info!</p>
+
 <%@include file="template/footer.jsp" %>
