@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="WebShop" />
           <element id="library" level="application" name="angular" />
+          <element id="library" level="application" name="jquery.dataTables" />
+          <element id="library" level="application" name="jquery-2.1.4" />
+          <element id="library" level="application" name="jquery-3.2.1" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />

@@ -40,6 +40,6 @@ public class AdminHome {
         model.addAttribute("customerList",customerList);
 
 
-        return "productInventory";
+        return "customerManagement";
     }
 }

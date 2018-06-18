@@ -16,7 +16,7 @@
         <div class="container" ng-app="cartApp">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="#" alt="image" style="width: 100%; width: 300px">
+                    <img src="<spring:url value="/resources/images/guitar.jpeg"/>" alt="image" style="width: 300px">
                 </div>
                 <div class="col-md-5">
                     <h3>${product.productName}</h3>
@@ -35,8 +35,8 @@
                     </c:if>
                     <p ng-controller="cartCtrl">
                         <a href="<c:url value="${url}"/> " class="btn btn default-color0">Back</a>
-                        <a href="#" class="btn btn-warning btn-outline-warning " ng-click="addToCart('${product.productID}')"><i class="fas fa-shopping-cart"></i>Order Now</a>
-                        <a href="<spring:url value="/cart" />" class="btn btn default-color0"><i class="far fa-hand-point-right"></i>View Cart</a>
+                        <a href="#" class="btn btn-warning btn-outline-warning " ng-click="addToCart('${product.productID}')">Order Now</a>
+                        <a href="<spring:url value="/customer/cart" />" class="btn btn default-color0">View Cart</a>
                     </p>
                 </div>
             </div>

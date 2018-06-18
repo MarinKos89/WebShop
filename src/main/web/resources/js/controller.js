@@ -18,9 +18,9 @@ cartApp.controller("cartCtrl",function ($scope,$http) {
         $scope.refreshCart(cartId);
     };
 
-    $scope.addToCart=function (productId) {
+    $scope.addToCart=function (productID) {
 
-        $http.put('/WebShop/rest/cart/add/' + productId).success(function () {
+        $http.put('/WebShop/rest/cart/add/' + productID).success(function () {
 
             alert("Product successfuly added");
         });

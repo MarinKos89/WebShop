@@ -15,11 +15,11 @@
             </div>
         </section>
         <section class="container" ng-app="cartApp">
-            <div ng-controller = "cartCtrl" ng-init="initCartId('${cartId}')">
+            <div ng-controller = "cartCtrl" ng-init="initCartId('${cartID}')">
             <div>
                 <a class="btn btn-danger pull-left" ng-click="clearCart()"><i class="fas fa-trash-alt">Clear cart</i></a>
 
-                <a href="<spring:url value="/order/${cartId}"/>"
+                <a href="<spring:url value="/order/${cartID}"/>"
                    class="btn btn-success pull-right"><span class="glyphicon-shopping-cart glyphicon"></span> Check out
                 </a>
             </div>
