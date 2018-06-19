@@ -41,6 +41,7 @@
                     <td>${customer.customerPhone}</td>
                     <td>${customer.username}</td>
                     <td>${customer.enabled}</td>
+
                 </tr>
             </c:forEach>
         </table>

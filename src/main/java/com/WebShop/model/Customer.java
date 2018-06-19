@@ -33,7 +33,7 @@ public class Customer implements Serializable {
     @NotEmpty(message = "Password cannot be null")
     private String password;
 
-    private boolean enable;
+    private boolean enabled;
 
     @OneToOne
     @JoinColumn(name="billingAddressId")
@@ -45,9 +45,11 @@ public class Customer implements Serializable {
 
 
     @OneToOne
-    @JsonIgnore
     @JoinColumn(name = "cartId")
+    @JsonIgnore
     private Cart cart;
+
+
 
     public int getCustomerID() {
         return customerID;
@@ -97,12 +99,12 @@ public class Customer implements Serializable {
         this.password = password;
     }
 
-    public boolean isEnable() {
-        return enable;
+    public boolean isEnabled() {
+        return enabled;
     }
 
-    public void setEnable(boolean enable) {
-        this.enable = enable;
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
     }
 
     public BillingAddress getBillingAddress() {
@@ -128,4 +130,6 @@ public class Customer implements Serializable {
     public void setCart(Cart cart) {
         this.cart = cart;
     }
+
+
 }

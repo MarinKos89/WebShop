@@ -55,15 +55,17 @@ public class RegisterController {
 
             }
 
-            if (customer.getCustomerEmail().equals((customerList.get(i).getCustomerEmail())));
-            model.addAttribute("usernameMsg","Username already exists");
+            if (customer.getUsername().equals((customerList.get(i).getUsername()))){
+                model.addAttribute("usernameMsg","Username already exists");
+            }
+
 
             return "registerCustomer";
         }
 
 
 
-        customer.setEnable(true);
+        customer.setEnabled(true);
         customerService.addCustomer(customer);
 
         return "registerCustomerSuccess";
