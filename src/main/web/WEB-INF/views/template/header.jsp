@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %>
 <%--
   Created by IntelliJ IDEA.
   User: Marin
@@ -15,7 +16,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Carousel Template for Bootstrap</title>
+    <title>Music Web Shop</title>
 
     <!-- Angular Js -->
 
@@ -39,7 +40,7 @@
     <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
 
 
-    <!-- Custom styles for this template -->
+
 
 </head>
 <body>

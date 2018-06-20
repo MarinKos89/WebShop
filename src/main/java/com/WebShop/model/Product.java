@@ -1,6 +1,7 @@
 package com.WebShop.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;
 import javax.validation.constraints.Min;
@@ -35,6 +36,16 @@ public class Product implements Serializable {
     @JsonIgnore
     private List<CartItem> cartItemList;
 
+    @Transient
+    private MultipartFile productImage;
+
+    public MultipartFile getProductImage() {
+        return productImage;
+    }
+
+    public void setProductImage(MultipartFile productImage) {
+        this.productImage = productImage;
+    }
 
     public int getProductID() {
         return productID;
@@ -104,6 +115,7 @@ public class Product implements Serializable {
         return productManufacturer;
     }
 
+
     public void setProductManufacturer(String productManufacturer) {
         this.productManufacturer = productManufacturer;
     }
@@ -115,4 +127,6 @@ public class Product implements Serializable {
     public void setCartItemList(List<CartItem> cartItemList) {
         this.cartItemList = cartItemList;
     }
+
+
 }

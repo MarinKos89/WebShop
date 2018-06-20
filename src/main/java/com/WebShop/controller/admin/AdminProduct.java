@@ -10,15 +10,24 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
+
+
+
 
 @Controller
 @RequestMapping("/admin")
 public class AdminProduct {
+
+
+    private Path path;
+
 
     @Autowired
     private ProductService productService;
@@ -44,6 +53,21 @@ public class AdminProduct {
 
         productService.addProduct(product);
 
+        MultipartFile productImage = product.getProductImage();
+        String rootDirectory = request.getSession().getServletContext().getRealPath("/");
+        path = Paths.get(rootDirectory + "\\resources\\images\\"+product.getProductID()+".png");
+
+
+        if (productImage != null && !productImage.isEmpty()) {
+            try {
+                productImage.transferTo(new File(path.toString()));
+            } catch (Exception e) {
+                e.printStackTrace();
+                throw new RuntimeException("Product image saving failed.", e);
+            }
+        }
+
+
 
 
         return "redirect:/admin/productInventory";
@@ -65,6 +89,19 @@ public class AdminProduct {
             return "editProduct";
         }
 
+        MultipartFile productImage = product.getProductImage();
+        String rootDirectory = request.getSession().getServletContext().getRealPath("/");
+        path = Paths.get(rootDirectory + "\\resources\\images\\"+product.getProductID()+".png");
+
+        if (productImage != null && !productImage.isEmpty()) {
+            try {
+                productImage.transferTo(new File(path.toString()));
+            } catch (Exception e) {
+                e.printStackTrace();
+                throw new RuntimeException("Product image saving failed.", e);
+            }
+        }
+
 
 
         productService.editProduct(product);
@@ -76,6 +113,16 @@ public class AdminProduct {
     @RequestMapping("/product/deleteProduct/{id}")
     public String deleteProduct(@PathVariable int id, Model model, HttpServletRequest request) {
         String rootDirectory = request.getSession().getServletContext().getRealPath("/");
+
+        path = Paths.get(rootDirectory + "\\resources\\images\\" + id + ".png");
+
+        if (Files.exists(path)) {
+            try {
+                Files.delete(path);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
 
         Product product = productService.getProductByID(id);

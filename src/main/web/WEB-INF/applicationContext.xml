@@ -36,6 +36,10 @@
     </bean>
 
 
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="1024000" />
+    </bean>
+
 
     <security:http auto-config="true">
         <security:intercept-url pattern="/admin/**" access="hasRole('ROLE_ADMIN')"/>

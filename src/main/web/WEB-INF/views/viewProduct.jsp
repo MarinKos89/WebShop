@@ -16,7 +16,7 @@
         <div class="container" ng-app="cartApp">
             <div class="row">
                 <div class="col-md-5">
-                    <img src="<spring:url value="/resources/images/guitar.jpeg"/>" alt="image" style="width: 300px">
+                    <img src="<spring:url value="/resources/images/${product.productID}.png"/>" alt="image" style="width: 300px">
                 </div>
                 <div class="col-md-5">
                     <h3>${product.productName}</h3>

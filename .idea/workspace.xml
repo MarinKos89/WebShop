@@ -7,22 +7,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0eb763fb-1ba9-4e67-8d4e-8ce506bff145" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WebShop_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WebShop_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/CartResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/CartResources.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/admin/AdminHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/admin/AdminHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/admin/AdminProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/controller/admin/AdminProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/CartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/CartDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/CartItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/CartItemDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/CustomerOrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/CustomerOrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CartDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CartDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CartItemDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CartItemDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CustomerOrderDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/CustomerOrderDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/ProductDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/dao/implementation/ProductDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Authorities.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Authorities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/BillingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/BillingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/CartItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/CustomerOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/CustomerOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/ShippingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/ShippingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/CartItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/CartItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/CartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/CustomerOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/CustomerOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/CartItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/CartItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/CustomerOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/CustomerOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/classes/com/WebShop/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/customerManagement.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/customerManagement.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/resources/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/resources/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/resources/images/guitar.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/resources/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/resources/js/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/CartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/CartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/CartResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/CartResources.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/admin/AdminHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/admin/AdminHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/controller/admin/AdminProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/controller/admin/AdminProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/CartDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/CartDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/CartItemDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/CartItemDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/CustomerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/CustomerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/CustomerOrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/CustomerOrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CartDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CartDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CartItemDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CartItemDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CustomerDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CustomerDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CustomerOrderDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/CustomerOrderDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/ProductDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/dao/implementation/ProductDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/Authorities.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/Authorities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/BillingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/BillingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/CartItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/CustomerOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/CustomerOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/ShippingAddress.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/ShippingAddress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/model/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/CartItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/CartItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/CartService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/CartService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/CustomerOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/CustomerOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/CartItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/CartItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/CartServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/CartServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/CustomerOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/CustomerOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/CustomerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/CustomerServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WebShop/service/impl/ProductServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,20 +112,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
+      <file leaf-file-name="viewProduct.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="382">
+              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/admin.jsp">
+      <file leaf-file-name="productList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="318">
+              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addProduct.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productInventory.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/template/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -86,10 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/service/impl/CustomerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/CustomerDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/service/CartService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/service/impl/CartServiceImpl.java" />
@@ -116,27 +264,31 @@
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/flows/checkout/ThanksCustomer.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CartDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/resources/css/carousel.css" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/resources/js/controller.js" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/cart.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/resources/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminHome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/customerManagement.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/dao/implementation/CustomerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/resources/js/controller.js" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp" />
+        <option value="$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp" />
       </list>
     </option>
   </component>
@@ -163,7 +315,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -279,7 +431,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebShop" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +449,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,15 +462,15 @@
     <property name="SearchEverywhereHistoryKey" value="diff&#9;ACTION&#9;Diff.KeymapGroup&#10;DIFF&#9;ACTION&#9;Diff.KeymapGroup" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/eMusicStore (1)/eMusicStore/src/main/webapp/WEB-INF/views/admin.jsp" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/eMusicStore (1)/eMusicStore/src/main/webapp/WEB-INF/views/productInventory.jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31622365" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/eMusicStore (1)/eMusicStore/src/main/webapp/WEB-INF/views/admin.jsp" />
+    <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/eMusicStore (1)/eMusicStore/src/main/webapp/WEB-INF/views/productInventory.jsp" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -472,15 +632,15 @@
       <workItem from="1528733842112" duration="11785000" />
       <workItem from="1528817299389" duration="39300000" />
       <workItem from="1529263590443" duration="7401000" />
-      <workItem from="1529309924855" duration="21728000" />
+      <workItem from="1529309924855" duration="40963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153692000" />
+    <option name="totallyTimeSpent" value="172927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -502,10 +662,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.030601094" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947917" visible="true" weight="0.2391775" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34029227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1890625" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -549,12 +709,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/web/resources/images/10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/resources/images/accessory.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/resources/images/back1.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -570,38 +724,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/web/resources/images/record.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/template/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="92" selection-start-line="101" selection-start-column="92" selection-end-line="101" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-387">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/CartResources.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-591">
           <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/resources/js/controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -623,16 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="13" selection-start-line="13" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#775#808#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -663,62 +779,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding>
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1293#1294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="e#1617#1635#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/dao/CustomerOrderDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/customerManagement.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -798,23 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/log/eMusicStore/src/main/java/com/emusicstore/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -839,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="80" selection-start-line="33" selection-start-column="80" selection-end-line="33" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/service/impl/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -854,20 +896,6 @@
             <element signature="e#670#671#0" expanded="true" />
             <element signature="e#722#723#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" column="84" lean-forward="true" selection-start-line="40" selection-start-column="84" selection-end-line="40" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -881,17 +909,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="-595">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomerSuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/registerCustomer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1751">
+          <caret line="103" column="53" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/resources/js/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/template/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/admin.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="697">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1259#1260#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="36" selection-start-line="36" selection-end-line="36" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/resources/images/8.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/template/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/WebShop/controller/admin/AdminProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/addProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/viewProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/web/WEB-INF/views/productInventory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="59" column="28" lean-forward="true" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -901,7 +1070,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>WebShop:war exploded</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -914,7 +1083,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (WebShop)|Spring</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -954,7 +1123,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.31622365" />
               </list>
             </option>
           </splitter-proportions>
@@ -974,7 +1143,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Spring MVC-4.3.16.RELEASE</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
