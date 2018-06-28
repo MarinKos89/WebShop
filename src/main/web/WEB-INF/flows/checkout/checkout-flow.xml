@@ -6,33 +6,33 @@
     <var name="order" class="com.WebShop.model.CustomerOrder"/>
     
     <action-state id="addCartToOrder">
-        <evaluate expression="cartDaoImpl.validate(requestParameters.cartID)" result="order.cart"/>
-        <transition to="InvalidCartWarning" on-exception="java.io.IOException"/>
-        <transition to="CustomerInfo"/>
+        <evaluate expression="cartDaoImpl.validate(requestParameters.cartId)" result="order.cart"/>
+        <transition to="invalidCartWarning" on-exception="java.io.IOException"/>
+        <transition to="customerInfo"/>
     </action-state>
     
-    <view-state id="CustomerInfo" view="CustomerInfo.jsp" model="order">
-        <transition on="CustomerInfoCollected" to="CollectShippingDetail"/>
+    <view-state id="customerInfo" view="customerInfo.jsp" model="order">
+        <transition on="customerInfoCollected" to="collectShippingDetail"/>
 
     </view-state>
 
-    <view-state id="CollectShippingDetail" view="CollectShippingDetails.jsp" model="order">
+    <view-state id="collectShippingDetail" view="collectShippingDetail.jsp" model="order">
         <transition on="shippingDetailCollected" to="orderConfirmation"/>
-        <transition on="backToCustomerInfo" to="CustomerInfo"/>
+        <transition on="backToCustomerInfo" to="customerInfo"/>
     </view-state>
 
 
-    <view-state id="orderConfirmation" >
+    <view-state id="orderConfirmation"  >
         <transition on="orderConfirmed" to="proceesOrder"/>
-        <transition on="baclToCollectShippingDetail" to="CollectShippingDetail"/>
+        <transition on="backToCollectShippingDetail" to="collectShippingDetail"/>
     </view-state>
 
     <action-state id="proceesOrder">
-        <evaluate expression="cartItemDaoImpl.removeCartItem(order.cart)" />
-        <transition to="ThanksCustomer"/>
+        <evaluate expression="cartItemDaoImpl.removeAllCartItems(order.cart)" />
+        <transition to="thanksCustomer"/>
     </action-state>
 
-    <view-state id="ThanksCustomer" model="order">
+    <view-state id="thanksCustomer" model="order">
         <transition to="endState"/>
 
     </view-state>
@@ -40,7 +40,7 @@
 
     <end-state id="endState"/>
     
-    <view-state id="InvalidCartWarning">
+    <view-state id="invalidCartWarning">
         <transition to="endState"/> 
     </view-state>
     

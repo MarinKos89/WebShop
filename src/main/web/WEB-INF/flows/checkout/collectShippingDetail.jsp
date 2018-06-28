@@ -22,7 +22,7 @@
         <h3>Shipping Address</h3>
 
         <div class="form-group">
-            <label for="shippingStreet">Street Name</label>
+            <label for="shippingStreet">Street Name</label>a
             <form:input path="cart.customer.shippingAddress.streetName" id="shippingStreet" class="form-Control"/>
         </div>
 
@@ -54,7 +54,7 @@
         <input type="hidden" name="_flowExecutionKey" />
 
         <br><br>
-        <button class="btn btn-default" name="_eventId_backToCollectCustomerInfo">Back</button>
+        <button class="btn btn-default" name="_eventId_backToCustomerInfo">Back</button>
         <input type="submit" value="Next" class="btn btn-default" name="_eventId_shippingDetailCollected" />
         <button class="btn btn-default" name="_eventId_cancel">Cancel</button>
         </form:form>

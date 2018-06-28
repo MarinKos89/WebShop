@@ -81,16 +81,16 @@ public class CartResources {
     }
 
 
-    @RequestMapping(value="/remove/{productId}", method=RequestMethod.PUT)
-    @ResponseStatus(value=HttpStatus.NO_CONTENT)
-    public void removeItem(@PathVariable int productId, HttpServletRequest request) {
+    @RequestMapping(value = "/remove/{productId}", method = RequestMethod.PUT)
+    @ResponseStatus(value = HttpStatus.NO_CONTENT)
+    public void removeItem (@PathVariable(value = "productId") int productId) {
         CartItem cartItem = cartItemService.getCartItemByProductID(productId);
         cartItemService.removeCartItem(cartItem);
     }
 
-    @RequestMapping(value = "/cart/removeAllItems/{cartID}")
+    @RequestMapping(value = "/{cartId}", method = RequestMethod.DELETE)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
-    public void clearCart(@PathVariable(value = "cartID") int cartID){
+    public void clearCart(@PathVariable(value = "cartId") int cartID){
         Cart cart = cartService.getCartByID(cartID);
         cartItemService.removeAllCartItems(cart);
     }

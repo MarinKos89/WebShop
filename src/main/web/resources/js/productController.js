@@ -27,7 +27,7 @@ cartApp.controller("cartCtrl", function ($scope, $http){
         $http.put('/rest/cart/remove/'+productId).success(function (data) {
             $scope.refreshCart();
         });
-    };
+    }
 
     $scope.calGrandTotal = function () {
         var grandTotal=0;

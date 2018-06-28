@@ -29,7 +29,6 @@ public class CartDaoImpl implements CartDao {
     @Autowired
     private CustomerOrderService customerOrderService;
 
-
     @Override
     public void update(Cart cart) {
         int cartId = cart.getCartId();
@@ -38,7 +37,6 @@ public class CartDaoImpl implements CartDao {
 
         Session session = sessionFactory.getCurrentSession();
         session.saveOrUpdate(cart);
-
     }
 
     @Override
@@ -56,4 +54,7 @@ public class CartDaoImpl implements CartDao {
         Session session = sessionFactory.getCurrentSession();
         return (Cart) session.get(Cart.class, cartID);
     }
+
+
+
 }

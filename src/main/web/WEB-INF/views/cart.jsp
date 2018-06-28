@@ -15,11 +15,12 @@
                 </div>
             </div>
         </section>
-        <section class="container">
-            <div  >
-            <div >
-                <a class="btn btn-danger pull-left" ><i class="fas fa-trash-alt">Clear cart</i></a>
 
+        <section class="container" ng-app="cartApp">
+            <div ng-controller = "cartCtrl" ng-init="initCartId('${cartId}')">
+            <div>
+                <a class="btn btn-danger pull-left" ng-click="clearCart()"><span
+                        class="glyphicon glyphicon-remove-sign"></span>Clear Cart</a>
                 <a href="<spring:url value="/order/${cartId}"/>"
                    class="btn btn-success pull-right"><span class="glyphicon-shopping-cart glyphicon"></span> Check out
                 </a>
@@ -33,28 +34,19 @@
                     <th>Action</th>
 
                 </tr>
-            <c:forEach items="${cartItems}" var="items">
-            <tr>
-
-                <td>${items.product.productName}</td>
-                <td>${items.product.productPrice}</td>
-                <td>${items.quantity}</td>
-                <td>${items.totalPrice}</td>
-                <td><a href="#" class="label label-danger"  >
-                    <i class="fas fa-trash"></i>Remove</a></td>
-
-            </tr>
-
-
-             </c:forEach>
-
-
-
+                <tr ng-repeat = "item in cart.cartItems">
+                    <td>{{item.product.productName}}</td>
+                    <td>{{item.product.productPrice}}</td>
+                    <td>{{item.quantity}}</td>
+                    <td>{{item.totalPrice}}</td>
+                    <td><a href="#" class="label label-danger" ng-click="removeFromCart(item.product.productId)">
+                        <span class="glyphicon glyphicon-remove"></span>remove</a></td>
+                </tr>
                 <tr>
                     <th></th>
                     <th></th>
-                    <th>Grand total :</th>
-                    <th></th>
+                    <th>Grand Total</th>
+                    <th>{{calGrandTotal()}}</th>
                     <th></th>
                 </tr>
             </table>
@@ -66,5 +58,5 @@
 </div>
 
 
-<script src="<c:url value="/resources/js/productController.js"/>"></script>
-<%@include file="template/footer.jsp" %>
+<script src="<c:url value="/resources/js/productController.js" /> "></script>
+<%@include file="/WEB-INF/views/template/footer.jsp" %>
