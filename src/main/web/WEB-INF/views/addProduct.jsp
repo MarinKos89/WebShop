@@ -45,7 +45,7 @@
             </form:select>
         </div>
         <div class="form-group">
-            <label for ="description">Description</label>
+            <label for ="description">Description</label
             <form:textarea path="productDescription" id="description" class="form-Control"/>
         </div>
         <div class="form-group">

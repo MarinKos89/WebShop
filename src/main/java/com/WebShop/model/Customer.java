@@ -45,7 +45,7 @@ public class Customer implements Serializable {
 
 
     @OneToOne
-    @JoinColumn(name = "cartId")
+    @JoinColumn(name = "cartID")
     @JsonIgnore
     private Cart cart;
 

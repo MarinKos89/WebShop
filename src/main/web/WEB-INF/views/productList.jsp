@@ -9,7 +9,7 @@
         var searchCondition = '${searchCondition}';
 
         $('.table').DataTable({
-            "lengthMenu": [[1,2,3,5,10,-1], [1,2,3,5,10, "All"]],
+            "lengthMenu": [[5,10,-1], [5,10, "All"]],
             "oSearch": {"sSearch": searchCondition}
         });
     });
@@ -40,7 +40,7 @@
             </thead>
             <c:forEach items="${products}" var="product">
                 <tr>
-                    <td><img src="<c:url value="/resources/images/${product.productID}.png"/>" alt="image" style="width:50%"></td>
+                    <td><img src="<c:url value="/resources/images/${product.productID}.png"/>" alt="image" style="width: 150px"></td>
                     <td>${product.productName}</td>
                     <td>${product.productCategory}</td>
                     <td>${product.productCondition}</td>

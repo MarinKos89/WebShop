@@ -15,7 +15,7 @@ public class CustomerOrder implements Serializable {
     private int customerOrderID;
 
     @OneToOne
-    @JoinColumn(name = "cartId")
+    @JoinColumn(name = "cartID")
     private Cart cart;
 
     @OneToOne

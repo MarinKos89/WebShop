@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.math.BigDecimal;
 
 @Entity
 public class CartItem implements Serializable {
@@ -13,28 +14,26 @@ public class CartItem implements Serializable {
 
     @Id
     @GeneratedValue
-    private int cartItemID;
+    private int cartItemId;
 
     @ManyToOne
-    @JoinColumn(name="cartID")
+    @JoinColumn(name = "cartId")
     @JsonIgnore
     private Cart cart;
 
     @ManyToOne
-    @JoinColumn(name = "productID")
+    @JoinColumn(name = "productId")
     private Product product;
-
 
     private int quantity;
     private double totalPrice;
 
-
-    public int getCartItemID() {
-        return cartItemID;
+    public int getCartItemId() {
+        return cartItemId;
     }
 
-    public void setCartItemID(int cartItemID) {
-        this.cartItemID = cartItemID;
+    public void setCartItemId(int cartItemId) {
+        this.cartItemId = cartItemId;
     }
 
     public Cart getCart() {
@@ -68,4 +67,5 @@ public class CartItem implements Serializable {
     public void setTotalPrice(double totalPrice) {
         this.totalPrice = totalPrice;
     }
+
 }

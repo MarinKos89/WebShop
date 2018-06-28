@@ -45,10 +45,11 @@
         <security:intercept-url pattern="/admin/**" access="hasRole('ROLE_ADMIN')"/>
         <security:intercept-url pattern="/customer/**" access="hasRole('ROLE_USER')"/>
         <security:form-login login-page="/login"
-                             default-target-url="/admin"
+                             default-target-url="/"
                              authentication-failure-url="/login?error"
                              username-parameter="username"
                              password-parameter="password"/>
+        <security:csrf disabled="true" />
         <security:logout
                 logout-success-url="/login?logout"/>
     </security:http>
@@ -61,7 +62,7 @@
         </security:authentication-provider>
     </security:authentication-manager>
 
-    <webflow-config:flow-executor id="flowExecutor" flow-registry="flowRegistry"/>
+    <webflow-config:flow-executor id="flowExecutor"/>
 
     <webflow-config:flow-registry id="flowRegistry" base-path="/WEB-INF/flows">
         <webflow-config:flow-location path="/checkout/checkout-flow.xml" id="checkout"/>

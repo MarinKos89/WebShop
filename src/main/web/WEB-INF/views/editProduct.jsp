@@ -4,10 +4,6 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
 
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
@@ -62,6 +58,12 @@
             <label for ="manufacturer">Manufacturer</label>
             <form:input path="productManufacturer" id="manufacturer" class="form-Control" value="${product.productManufacturer}"/>
         </div>
+
+        <div class="form-group">
+            <label class="control-label" for ="productImage">Upload image: </label>
+            <form:input path="productImage" type="file" id="productImage" class="form:input-large"/>
+        </div>
+
         <br>
         <br>
         <input type="submit" value="submit" class="btn btn-default">

@@ -22,7 +22,7 @@ import java.util.List;
 public class CustomerDaoImpl implements CustomerDao {
 
     @Autowired
-    SessionFactory sessionFactory;
+    private SessionFactory sessionFactory;
 
     public void addCustomer(Customer customer){
         Session session = sessionFactory.getCurrentSession();
@@ -63,7 +63,7 @@ public class CustomerDaoImpl implements CustomerDao {
     public List<Customer> getAllCustomers(){
         Session session=sessionFactory.getCurrentSession();
 
-        Query query= (Query) session.createQuery("from Customer");
+        Query query= session.createQuery("from Customer");
         List<Customer>customerList=query.list();
 
         return customerList;

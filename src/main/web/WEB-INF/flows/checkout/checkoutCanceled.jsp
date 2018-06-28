@@ -16,7 +16,7 @@
                 <div class="container">
                     <h1 class="alert alert-danger">Checkout cancelled</h1>
 
-                    <p>YYour checkout process is cancelled. You may continue shopping.</p>
+                    <p>Your checkout process is cancelled. Continue shopping.</p>
                 </div>
             </div>
         </section>

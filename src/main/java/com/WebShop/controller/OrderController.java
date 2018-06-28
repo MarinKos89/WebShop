@@ -37,7 +37,7 @@ public class OrderController {
 
         customerOrderService.addCustomerOrder(customerOrder);
 
-        return "redirect:/checkout?cartId"+cartId;
+        return "redirect:/checkout?cartId="+cartId;
 
 
     }

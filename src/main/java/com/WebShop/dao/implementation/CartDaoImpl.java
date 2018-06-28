@@ -11,40 +11,49 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 @Repository
 @Transactional
 public class CartDaoImpl implements CartDao {
 
 
+
+
     @Autowired
     private SessionFactory sessionFactory;
+
+
 
     @Autowired
     private CustomerOrderService customerOrderService;
 
-    public Cart getCartByID(int cartID) {
-       Session session =sessionFactory.getCurrentSession();
-       Cart cart=(Cart)session.get(Cart.class,cartID);
-       session.flush();
-       return  cart;
-    }
 
+    @Override
     public void update(Cart cart) {
-        int cartId=cart.getCartID();
-        double grandTotal=customerOrderService.getCustomerOrderPrice(cartId);
+        int cartId = cart.getCartId();
+        double grandTotal = customerOrderService.getCustomerOrderPrice(cartId);
         cart.setGrandTotal(grandTotal);
 
-        Session session=sessionFactory.getCurrentSession();
+        Session session = sessionFactory.getCurrentSession();
         session.saveOrUpdate(cart);
+
     }
 
+    @Override
     public Cart validate(int cartId) throws IOException {
         Cart cart=getCartByID(cartId);
-        if (cart==null || cart.getCartItemList().size()==0){
+        if(cart==null||cart.getCartItems().size()==0) {
             throw new IOException(cartId+"");
         }
         update(cart);
         return cart;
+    }
+
+    @Override
+    public Cart getCartByID(int cartID) {
+        Session session = sessionFactory.getCurrentSession();
+        return (Cart) session.get(Cart.class, cartID);
     }
 }

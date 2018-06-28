@@ -28,9 +28,9 @@ public class CustomerOrderServiceImpl implements CustomerOrderService {
 
         double grandTotal=0;
         Cart cart=cartService.getCartByID(cartId);
-        List<CartItem>cartItems=cart.getCartItemList();
+        List<CartItem>cartItems=cart.getCartItems();
 
-        for (CartItem item:cartItems){
+        for (CartItem item : cartItems){
             grandTotal+=item.getTotalPrice();
         }
         return grandTotal;

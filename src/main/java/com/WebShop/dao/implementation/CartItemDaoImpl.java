@@ -26,19 +26,18 @@ public class CartItemDaoImpl implements CartItemDao {
         session.flush();
     }
 
-    public void removeCartItem(CartItem cartItem) {
+    public void removeCartItem(CartItem cartItemID) {
         Session session=sessionFactory.getCurrentSession();
-        session.delete(cartItem);
+        session.delete(cartItemID);
         session.flush();
 
     }
 
     public void removeAllCartItems(Cart cart) {
 
-        List<CartItem>cartItems=cart.getCartItemList();
-
-        for (CartItem item:cartItems){
-           removeCartItem(item);
+        List<CartItem> cartItems = cart.getCartItems();
+        for (CartItem cartItem : cartItems) {
+            removeCartItem(cartItem);
         }
     }
 

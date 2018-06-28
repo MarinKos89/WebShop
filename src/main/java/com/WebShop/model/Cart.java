@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -16,35 +17,32 @@ public class Cart implements Serializable {
 
     @Id
     @GeneratedValue
-    private int cartID;
+    private int cartId;
 
-
-    @OneToMany(mappedBy = "cart",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
-    private List<CartItem> cartItemList;
-
+    @OneToMany(mappedBy = "cart", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<CartItem> cartItems;
 
     @OneToOne
-    @JoinColumn(name="customerID")
+    @JoinColumn(name = "customerId")
     @JsonIgnore
     private Customer customer;
 
-
     private double grandTotal;
 
-    public int getCartID() {
-        return cartID;
+    public int getCartId() {
+        return cartId;
     }
 
-    public void setCartID(int cartID) {
-        this.cartID = cartID;
+    public void setCartId(int cartId) {
+        this.cartId = cartId;
     }
 
-    public List<CartItem> getCartItemList() {
-        return cartItemList;
+    public List<CartItem> getCartItems() {
+        return cartItems;
     }
 
-    public void setCartItemList(List<CartItem> cartItemList) {
-        this.cartItemList = cartItemList;
+    public void setCartItems(List<CartItem> cartItems) {
+        this.cartItems = cartItems;
     }
 
     public Customer getCustomer() {
@@ -62,6 +60,12 @@ public class Cart implements Serializable {
     public void setGrandTotal(double grandTotal) {
         this.grandTotal = grandTotal;
     }
+
+
+
+
+
+
 }
 
 

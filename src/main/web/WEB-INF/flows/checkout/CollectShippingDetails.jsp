@@ -32,22 +32,22 @@
         </div>
 
         <div class="form-group">
-            <label for="shippingCity">City</label>
+            <label for="shippingCity">City Name</label>
             <form:input path="cart.customer.shippingAddress.city" id="shippingCity" class="form-Control"/>
         </div>
 
         <div class="form-group">
-            <label for="shippingState">State</label>
+            <label for="shippingState">State Name</label>
             <form:input path="cart.customer.shippingAddress.state" id="shippingState" class="form-Control"/>
         </div>
 
         <div class="form-group">
-            <label for="shippingCountry">Country</label>
+            <label for="shippingCountry">Country Name</label>
             <form:input path="cart.customer.shippingAddress.country" id="shippingCountry" class="form-Control"/>
         </div>
 
         <div class="form-group">
-            <label for="shippingZip">Zipcode</label>
+            <label for="shippingZip">Zipcode of Country</label>
             <form:input path="cart.customer.shippingAddress.zipCode" id="shippingZip" class="form-Control"/>
         </div>
 

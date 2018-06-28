@@ -48,22 +48,22 @@
         </div>
 
         <div class="form-group">
-            <label for="billingCity">City</label>
+            <label for="billingCity">City Name</label>
             <form:input path="cart.customer.billingAddress.city" id="billingCity" class="form-Control"/>
         </div>
 
         <div class="form-group">
-            <label for="billingState">State</label>
+            <label for="billingState">State Name</label>
             <form:input path="cart.customer.billingAddress.state" id="billingState" class="form-Control"/>
         </div>
 
         <div class="form-group">
-            <label for="billingCountry">Country</label>
+            <label for="billingCountry">Country Name</label>
             <form:input path="cart.customer.billingAddress.country" id="billingCountry" class="form-Control"/>
         </div>
 
         <div class="form-group">
-            <label for="billingZip">Zipcode</label>
+            <label for="billingZip">Zipcode of Country</label>
             <form:input path="cart.customer.billingAddress.zipCode" id="billingZip" class="form-Control"/>
         </div>
 

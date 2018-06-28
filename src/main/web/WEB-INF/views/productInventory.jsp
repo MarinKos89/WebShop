@@ -11,15 +11,13 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
 
-
-
 <script>
     $(document).ready(function(){
-
+        var searchCondition = '${searchCondition}';
 
         $('.table').DataTable({
-            "lengthMenu": [[1,2,3,5,10,-1], [1,2,3,5,10, "All"]]
-
+            "lengthMenu": [[5,10,-1], [5,10, "All"]],
+            "oSearch": {"sSearch": searchCondition}
         });
     });
 </script>
@@ -50,7 +48,7 @@
             <c:forEach items="${products}" var="product">
                 <tr>
                     <td><img src="<c:url value="/resources/images/${product.productID}.png" /> " alt="image"
-                             style="width:100%"/></td>
+                             style="width: 150px"/></td>
                     <td>${product.productName}</td>
                     <td>${product.productCategory}</td>
                     <td>${product.productCondition}</td>

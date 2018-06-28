@@ -6,7 +6,7 @@
     <var name="order" class="com.WebShop.model.CustomerOrder"/>
     
     <action-state id="addCartToOrder">
-        <evaluate expression="cartDaoImpl.validate(requestParameters.cartId)" result="order.cart"/>
+        <evaluate expression="cartDaoImpl.validate(requestParameters.cartID)" result="order.cart"/>
         <transition to="InvalidCartWarning" on-exception="java.io.IOException"/>
         <transition to="CustomerInfo"/>
     </action-state>
@@ -28,7 +28,7 @@
     </view-state>
 
     <action-state id="proceesOrder">
-        <evaluate expression="cartItemDaoImpl.removeAllCartItems(order.cart)"/>
+        <evaluate expression="cartItemDaoImpl.removeCartItem(order.cart)" />
         <transition to="ThanksCustomer"/>
     </action-state>
 

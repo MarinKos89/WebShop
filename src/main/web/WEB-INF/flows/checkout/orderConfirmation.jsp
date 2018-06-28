@@ -75,7 +75,7 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <c:forEach var="cartItem" items="${order.cart.cartItems}" >
+                                <c:forEach var="cartItem" items="${order.cart.cartItemList}" >
                                     <tr>
                                         <td class="col-md-9"><em>${cartItem.product.productName}</em></td>
                                         <td class="col-md-1" style="text-align: center">${cartItem.quantity}</td>
