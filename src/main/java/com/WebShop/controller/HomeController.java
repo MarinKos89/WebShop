@@ -18,16 +18,11 @@ import java.util.List;
 public class HomeController {
 
 
-
-
     @RequestMapping("/")
     public String home(){
 
         return "home";
     }
-
-
-
 
     @RequestMapping("/login")
     public String login(@RequestParam(value="error", required = false) String error,

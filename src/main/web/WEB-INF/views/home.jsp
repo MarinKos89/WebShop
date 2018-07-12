@@ -73,7 +73,7 @@
 
         <div class="row">
             <div class="col-lg-4">
-                <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Instrument" />"
+                <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Instruments" />"
                    role="button">
                     <img class="img-fluid" src="<c:url value="/resources/images/instrument.jpg" />" alt="Instrument
                 Image" width="140" height="140"></a>
@@ -87,7 +87,7 @@
 
 
                 <div class="col-lg-4">
-                    <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Record" />"
+                    <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Vinyl" />"
                        role="button">
                         <img class="img-fluid" src="<c:url value="/resources/images/record.jpg" />" alt="Instrument
                 Image" width="140" height="140"></a>
@@ -99,7 +99,7 @@
 
 
                     <div class="col-lg-4">
-                        <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Accessory" />"
+                        <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Accessories" />"
                            role="button">
                             <img class="img-fluid" src="<c:url value="/resources/images/accessory.jpg" />" alt="Instrument
                 Image" width="140" height="140"></a>

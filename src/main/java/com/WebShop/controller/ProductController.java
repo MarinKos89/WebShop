@@ -27,6 +27,7 @@ public class ProductController {
         return "productList";
     }
 
+
     @RequestMapping("/viewProduct/{productID}")
     public String viewProduct(@PathVariable int productID, Model model) throws IOException{
         Product product=productService.getProductByID(productID);

@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: mkos8
-  Date: 14.5.2018.
-  Time: 18:47
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="spring" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
@@ -22,9 +16,14 @@
     });
 </script>
 
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+
+
+
+
+
+
 
 <div class="container-wrapper">
     <div class="container">

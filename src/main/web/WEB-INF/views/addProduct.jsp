@@ -26,7 +26,7 @@
         <div class="form-group">
             <label for="category">Category</label>
             <form:select path="productCategory" name="Choose categoy" id="category">
-                <form:option value="Records">Records</form:option>
+                <form:option value="Records">Accessories</form:option>
                 <form:option value="Instruments">Instruments</form:option>
                 <form:option value="Vinyl">Vinyl</form:option>
             </form:select>
@@ -44,10 +44,10 @@
 
             </form:select>
         </div>
-        <div class="form-group">
-            <label for ="description">Description</label
-            <form:textarea path="productDescription" id="description" class="form-Control"/>
-        </div>
+        <%--<div class="form-group">--%>
+            <%--<label for ="description">Description</label--%>
+            <%--<form:input path="productDescription" id="description" class="form-Control"/>--%>
+        <%--</div>--%>
         <div class="form-group">
             <label for ="price">Price</label><form:errors path="productPrice" cssStyle="color:#c82333"/>
             <form:input path="productPrice" id="price" class="form-Control"/>
