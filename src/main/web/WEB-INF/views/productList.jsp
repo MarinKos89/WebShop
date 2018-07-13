@@ -1,12 +1,21 @@
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ taglib prefix="spring" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@include file="/WEB-INF/views/template/header.jsp" %>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
 
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
+<script>
+    $(document).ready(function(){
+        var searchCondition = '${searchCondition}';
+
+        $('.table').DataTable({
+            "lengthMenu": [[5,10,-1], [5,10, "All"]],
+            "oSearch": {"sSearch": searchCondition}
+        });
+    });
+</script>
+
+
 
 <div class="container-wrapper">
     <div class="container">
@@ -16,7 +25,7 @@
             <p class="lead">Check all the awesome products available now! </p>
         </div>
 
-        <table class="table table-info table-hover">
+        <table class="table table-striped table-hover">
             <thead>
             <tr class="bg-success">
                 <th>Photo thumb</th>
@@ -29,13 +38,13 @@
             </thead>
             <c:forEach items="${products}" var="product">
                 <tr>
-                    <td><img src="#" alt="image"></td>
+                    <td><img src="<c:url value="/resources/images/${product.productID}.png"/>" alt="image" style="width: 150px"></td>
                     <td>${product.productName}</td>
                     <td>${product.productCategory}</td>
                     <td>${product.productCondition}</td>
                     <td>${product.productPrice} USD</td>
                     <td>
-                        <a href="<spring:url value="/productList/viewProduct/${product.productID}"/>">
+                        <a href="<spring:url value="/product/viewProduct/${product.productID}"/>">
                         <i class="fas fa-info fa-fw"></i>
                     </a>
                     </td>

@@ -1,31 +1,57 @@
 package com.WebShop.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import org.springframework.web.multipart.MultipartFile;
+
+import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import java.io.Serializable;
+import java.util.List;
 
 @Entity
-public class Product {
+public class Product implements Serializable {
 
+
+    private static final long serialVersionUID = 9073055429577350234L;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private String productID;
+    private int productID;
+
+    @NotEmpty(message = "Name cannot be null")
     private String productName;
     private String productCategory;
     private String productDescription;
+    @Min(value = 0,message = "Price cannot no be less then zero")
     private double productPrice;
 
     private String productCondition;
     private String productStatus;
+
+    @Min(value = 0,message = "Units cannot be less then zero")
     private int unitInStock;
     private String productManufacturer;
 
-    public String getProductID() {
+    @OneToMany(mappedBy = "product",cascade = CascadeType.ALL,fetch = FetchType.EAGER)
+    @JsonIgnore
+    private List<CartItem> cartItemList;
+
+    @Transient
+    private MultipartFile productImage;
+
+    public MultipartFile getProductImage() {
+        return productImage;
+    }
+
+    public void setProductImage(MultipartFile productImage) {
+        this.productImage = productImage;
+    }
+
+    public int getProductID() {
         return productID;
     }
 
-    public void setProductID(String productID) {
+    public void setProductID(int productID) {
         this.productID = productID;
     }
 
@@ -89,7 +115,18 @@ public class Product {
         return productManufacturer;
     }
 
+
     public void setProductManufacturer(String productManufacturer) {
         this.productManufacturer = productManufacturer;
     }
+
+    public List<CartItem> getCartItemList() {
+        return cartItemList;
+    }
+
+    public void setCartItemList(List<CartItem> cartItemList) {
+        this.cartItemList = cartItemList;
+    }
+
+
 }

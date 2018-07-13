@@ -11,20 +11,35 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
 
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
-            <h1>All products</h1>
+            <h1>Administrator page</h1>
 
-            <p class="lead">Administrator page! </p>
+            <p class="lead">This is a administrator page! </p>
         </div>
+        <c:if test="${pageContext.request.userPrincipal.name != null}">
         <h3>
-            <a href="<c:url value="admin/productInventory"/> ">Product inventory</a>
+            Welcome: ${pageContext.request.userPrincipal.name} | <c:url var="logoutUrl" value="/logout"/>
+            <form action="${logoutUrl}" method="post">
+                <input type="Submit" value="Log out" class="btn-success" />
+
+            </form>
+        </h3>
+        </c:if>
+        <h3>
+            <a href="<c:url value="/admin/productInventory"/> ">Product inventory</a>
         </h3>
         <p>Here you can edit and modify product inventory</p>
 
+        <br>
+
+        <h3>
+            <a href="<c:url value="/admin/customer"/> ">Customer info</a>
+        </h3>
+        <p>Here you can view customer info!</p>
+
+
 <%@include file="template/footer.jsp" %>
+

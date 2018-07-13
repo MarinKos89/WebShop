@@ -8,12 +8,14 @@ import java.util.List;
 
 public interface ProductDao {
 
+    List<Product> getProductList();
+
+    Product getProductByID(int id);
+
     void addProduct(Product product);
 
-    Product getProductByID(String id);
+    void editProduct(Product product);
 
-    List<Product>getAllProduct();
-
-    void deleteProduct(String id);
+    void deleteProduct(Product product);
 
 }
