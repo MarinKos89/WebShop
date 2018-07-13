@@ -61,10 +61,11 @@
                 </li>
                 <li><a class="nav-link" href="<c:url value="/product/productList" />">Products</a> </li>
             </ul>
-            <ul class="nav navbar-nav-pull-left">
+            <ul class="nav navbar-nav-pull-left" >
                 <c:if test="${pageContext.request.userPrincipal.name != null}">
                     <li><a>Welcome: ${pageContext.request.userPrincipal.name}</a></li>
                     <li><a href="<c:url value="/logout" />">Logout</a></li>
+
                     <c:if test="${pageContext.request.userPrincipal.name != 'admin'}">
                         <li><a href="<c:url value="/customer/cart" />">Cart</a></li>
                     </c:if>

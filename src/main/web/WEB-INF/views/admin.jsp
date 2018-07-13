@@ -20,13 +20,13 @@
             <p class="lead">This is a administrator page! </p>
         </div>
         <c:if test="${pageContext.request.userPrincipal.name != null}">
-        <h2>
+        <h3>
             Welcome: ${pageContext.request.userPrincipal.name} | <c:url var="logoutUrl" value="/logout"/>
             <form action="${logoutUrl}" method="post">
-                <input type="Submit" value="Log out" />
+                <input type="Submit" value="Log out" class="btn-success" />
 
             </form>
-        </h2>
+        </h3>
         </c:if>
         <h3>
             <a href="<c:url value="/admin/productInventory"/> ">Product inventory</a>
@@ -34,13 +34,12 @@
         <p>Here you can edit and modify product inventory</p>
 
         <br>
-        <br>
-
 
         <h3>
-            <a href="<c:url value="/admin/customer"/> ">Customer Management</a>
+            <a href="<c:url value="/admin/customer"/> ">Customer info</a>
         </h3>
         <p>Here you can view customer info!</p>
+
 
 <%@include file="template/footer.jsp" %>
 

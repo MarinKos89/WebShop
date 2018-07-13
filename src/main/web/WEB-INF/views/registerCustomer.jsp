@@ -99,7 +99,7 @@
         <br>
 
         <input type="submit" value="Submit" class="btn btn-default">
-        <a href="<c:url value="/" />" class="btn btn-default">Cancel</a>
+        <a href="<c:url value="/admin/customer" />" class="btn btn-default">Cancel</a>
         </form:form>
 
-<%@include file="template/footer.jsp" %>
+<%@include file="template/footer.jsp" %>a

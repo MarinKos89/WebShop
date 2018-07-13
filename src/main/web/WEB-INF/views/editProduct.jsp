@@ -12,7 +12,10 @@
             <p class="lead">Fill required filds to edit product! </p>
         </div>
 
-        <form:form action="${pageContext.request.contextPath}/admin/product/editProduct" method="post" commandName="product">
+        <form:form action="${pageContext.request.contextPath}/admin/product/editProduct" method="post"
+                   commandName="product" enctype="multipart/form-data">
+        <form:hidden path="productID" value="${product.productID}" />
+
         <div class="form-group">
             <label for="name">Name</label>
             <form:input path="productName" id="name" class="form-Control" value="${product.productName}"/>
@@ -66,7 +69,7 @@
 
         <br>
         <br>
-        <input type="submit" value="submit" class="btn btn-default">
+        <input type="submit" value="Submit" class="btn btn-default">
         <a href="<c:url value="/admin/productInventory" />" class="btn btn-default">Cancel</a>
         </form:form>
 

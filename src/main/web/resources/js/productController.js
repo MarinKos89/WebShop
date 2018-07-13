@@ -24,10 +24,10 @@ cartApp.controller("cartCtrl", function ($scope, $http){
     };
 
     $scope.removeFromCart = function (productId) {
-        $http.put('/rest/cart/remove/'+productId).success(function (data) {
-            $scope.refreshCart();
+        $http.put('/rest/cart/remove/' +productId).success(function (data) {
+            $scope.clearCart();
         });
-    }
+    };
 
     $scope.calGrandTotal = function () {
         var grandTotal=0;

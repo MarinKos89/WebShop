@@ -9,6 +9,7 @@ import com.WebShop.service.CartService;
 import com.WebShop.service.CustomerService;
 import com.WebShop.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -53,6 +54,7 @@ public class CartResources {
     public void addItem(@PathVariable(value = "productID") int productID)
     {
 
+
         User user = (User)SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         Customer customer = customerService.getCustomerByUsername(user.getUsername());
         Cart cart = customer.getCart();
@@ -81,7 +83,7 @@ public class CartResources {
     }
 
 
-    @RequestMapping(value = "/remove/{productId}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/remove/{productId}", method = RequestMethod.DELETE)
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void removeItem (@PathVariable(value = "productId") int productId) {
         CartItem cartItem = cartItemService.getCartItemByProductID(productId);

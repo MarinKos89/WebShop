@@ -22,7 +22,6 @@
 
                     <p>Here you can browse and buy Instruments, Records and music related Accessories. Order Now for
                         Your Amazing New Kit!</p>
-
                 </div>
             </div>
         </div>
@@ -30,13 +29,10 @@
             <img class="second-slide home-image"
                  src="<c:url value="/resources/images/back2.jpg" />"
                  alt="Second slide">
-
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Facts You Should Know About Music</h1>
-
                     <p>Music brings joy, to all of our hearts, It's one of those, emotional arts.</p>
-
                 </div>
             </div>
         </div>
@@ -44,13 +40,10 @@
             <img class="third-slide home-image"
                  src="<c:url value="/resources/images/back3.jpg" />"
                  alt="Third slide">
-
             <div class="container">
                 <div class="carousel-caption">
                     <h1>It's A Jazz Affair</h1>
-
                     <p>Through ups and downs, Somehow I manage to survive in life.</p>
-
                 </div>
             </div>
         </div>
@@ -64,53 +57,32 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-
-
-
-
     <div class="container marketing">
-
-
         <div class="row">
             <div class="col-lg-4">
                 <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Instruments" />"
                    role="button">
                     <img class="img-fluid" src="<c:url value="/resources/images/instrument.jpg" />" alt="Instrument
                 Image" width="140" height="140"></a>
-
                 <h2>Instrument</h2>
                 <p>Well crafted and delicate instruments.</p>
-
             </div>
-
-
-
-
                 <div class="col-lg-4">
                     <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Vinyl" />"
                        role="button">
                         <img class="img-fluid" src="<c:url value="/resources/images/record.jpg" />" alt="Instrument
                 Image" width="140" height="140"></a>
-
                     <h2>Discography</h2>
                     <p>An exceptional collections of music records in favor of the traditional and modern genre of jazz.</p>
-
                 </div>
-
-
                     <div class="col-lg-4">
                         <a class="btn btn-default" href="<c:url value="/product/productList?searchCondition=Accessories" />"
                            role="button">
                             <img class="img-fluid" src="<c:url value="/resources/images/accessory.jpg" />" alt="Instrument
-                Image" width="140" height="140"></a>
-
+                                 Image" width="140" height="140"></a>
                         <h2>Accessories</h2>
                         <p>All musical and related geeky goods..</p>
-
                     </div>
-
-
-
         </div>
     </div>
     <%@include file="/WEB-INF/views/template/footer.jsp" %>
